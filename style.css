@@ -1,5 +1,6 @@
 .head {
-    background-color: #E6E6E6;
+background-image: url(fond1.jpg);
+background-size: cover;
 }
 .head-img {
     position: relative;
@@ -14,6 +15,7 @@
     text-align: center;
     width: 1440px;
 height: 60px;
+
 }
 
 
@@ -23,7 +25,7 @@ height: 60px;
     background-color:#C4C4C4 ;
     width: 1440px;
     height: 50px;
-    font-family: 'Times New Roman';
+    font-family: 'Bebas Neue', cursive;
 font-style: normal;
 font-weight: 700;
 font-size: 20px;
@@ -35,7 +37,7 @@ text-align: left;
 .title1-p1 {
     
     display: inline;
-    font-family: 'Times New Roman';
+    font-family: 'Bebas Neue', cursive;
 font-style: italic;
 font-weight: 700;
 font-size: 15px;
@@ -47,7 +49,7 @@ line-height: 84.69%;
 
 .title1-p3 {
     display: inline;
-    font-family: 'Times New Roman';
+    font-family: 'Bebas Neue', cursive;
 font-style: italic;
 font-weight: 700;
 font-size: 15px;
@@ -61,7 +63,7 @@ line-height: 84.69%;
 
 .title1-p5 {
     display: inline;
-    font-family: 'Times New Roman';
+    font-family: 'Bebas Neue', cursive;
 font-style: italic;
 font-weight: 700;
 font-size: 15px;
@@ -76,7 +78,7 @@ line-height: 84.69%;
     background-color:#C4C4C4 ;
     width: 1440px;
     height: 50px;
-    font-family: 'Times New Roman';
+    font-family: 'Bebas Neue', cursive;
 font-style: normal;
 font-weight: 700;
 font-size: 20px;
@@ -86,7 +88,7 @@ text-align: left;
 }
 .title2-p1 {
     display: inline;
-    font-family: 'Times New Roman';
+    font-family: 'Bebas Neue', cursive;
 font-style: italic;
 font-weight: 700;
 font-size: 15px;
@@ -98,7 +100,7 @@ line-height: 84.69%
 
 .title2-p3 {
     display: inline;
-    font-family: 'Times New Roman';
+    font-family: 'Bebas Neue', cursive;
 font-style: italic;
 font-weight: 700;
 font-size: 15px;
@@ -112,7 +114,7 @@ line-height: 84.69%
     background-color:#C4C4C4 ;
     width: 1440px;
     height: 50px;
-    font-family: 'Times New Roman';
+    font-family: 'Bebas Neue', cursive;
 font-style: normal;
 font-weight: 700;
 font-size: 20px;
@@ -123,7 +125,7 @@ text-align: left;
 
 .title3-p1 {
     display: inline;
-    font-family: 'Times New Roman';
+    font-family: 'Bebas Neue', cursive;
 font-style: italic;
 font-weight: 700;
 font-size: 15px;
@@ -134,7 +136,7 @@ line-height: 84.69%
 }
 .title3-p3 {
     display: inline;
-    font-family: 'Times New Roman';
+font-family: 'Bebas Neue', cursive;
 font-style: italic;
 font-weight: 700;
 font-size: 15px;
@@ -157,8 +159,8 @@ top: 40px;
 }
 
 .fot1-p {
-font-family: 'Times New Roman';
-font-style: normal;
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
 font-weight: 700;
 font-size: 20px;
 line-height: 84.69%;
@@ -169,16 +171,75 @@ top: 8px;
 
    }
  
-.fot1-img1 {
-    height: 25px;
+
+
+.sobremi {
+    background-color:#A2D9CE;
+    border: black 1px solid; 
+    border-radius: 10px;
+    display: inline;
+    height: 60px;
     position: relative;
-    bottom: 32px;
-    left: 760px;
+    left: 660px;
+    font-size: 35px;
+
 }
 
-.fot1-img2 {
-    height: 25px;
+.sobremi {
+height: 170px;
+}
+
+.boton-volver {
+    background-color:#A2D9CE;
+    border: black 1px solid; 
+    border-radius: 10px;
+    display: inline;
+    height: 60px;
     position: relative;
-    bottom: 32px;
-    left: 790px;
-    }
+    left: 630px;
+    font-size: 35px;}
+
+.info {
+border: black 5px solid;
+position: relative;
+top: 150px;
+}
+
+.info-1 {
+    position: relative;
+    left: 25px;
+}
+
+
+p{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.face1 {
+position: relative; left: 720px ; bottom: 57px;
+font-size: 25px;
+text-decoration: none;
+}
+.inst1 {
+    position: relative; left: 755px ; bottom: 84px;
+    font-size: 25px;
+    text-decoration: none;
+}
+.linke1{
+    position: relative; left: 790px ; bottom: 112px;
+    font-size: 25px;
+    text-decoration: none;
+    outline: none;
+    color: black;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    outline: none;
+}
+
+li {
+list-style: none;
+}
